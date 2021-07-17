@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone paper Scissors </title>
+    <style>
+        .container {
+
+            border: 1px solid black;
+
+            width: 75%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .rockpaperscissor {
+            display: flex;
+            border: 1px solid black;
+
+
+        }
+
+        .rockpaperscissor img{
+            margin: 0 auto;
+            justify-content: space-around;
+            
+            
+            height: auto;
+            width: 150px;
+            
+        }
+        .rockpaperscissor img:hover{
+            box-shadow: 0px 10px 50px rgb(0,0,0, 0.7);
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Challenge 3: STONE PAPER SCISSOR GAME</h2>
+        <h3>Click on 1 option</h3>
+        <div id="FlexBox" class="rockpaperscissor">
+            <img id="rock" src="http://images.clipartpanda.com/rock-clipart-rock-md.png" alt="" onclick="rpsGame(this)">
+            <img id="paper"
+                src="http://images.clipartpanda.com/paper-clipart-26088-clip-art-graphic-of-a-white-copy-and-print-paper-cartoon-character-holding-a-pair-of-scissors-by-toons4biz.jpg"
+                alt="" height=auto width="250" onclick="rpsGame(this)">
+            <img id="scissor" src="http://images.clipartpanda.com/scissors-clipart-royalty-free-images-red-scissors-isolated-17405377.jpg" alt=""
+                height=auto width="250" onclick="rpsGame(this )">
+        </div>
+    </div>
+    <script src="RPS.js"></script>
+
+
+</body>
+
+</html>
